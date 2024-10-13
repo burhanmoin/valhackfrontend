@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Afacad } from "next/font/google";
+import { Afacad } from "next/font/google";
 import "./globals.css";
 
 const inter = Afacad({
