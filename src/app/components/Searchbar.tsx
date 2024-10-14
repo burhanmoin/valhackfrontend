@@ -23,7 +23,7 @@ const SearchBar: React.FC = () => {
       setLoading(true);
 
       try {
-        const response = await axios.post('https://backend.thehameeds.com/chat/', {
+        const response = await axios.post('http://127.0.0.1:8000/chat/', {
           prompt: query,
         });
         const agentMessage: Message = { text: response.data.response, type: 'agent' };
